@@ -1,0 +1,48 @@
+/* Styles spécifiques à la page d'histoire pour enfants */
+.personalization-form {
+    background-color: #f9f5ff;
+    padding: 3rem 2rem;
+    margin: 3rem 0;
+    border-radius: 12px;
+}
+
+.form-container {
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.payment-cta {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 2rem;
+    background: white;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 2rem auto 0;
+}
+
+.notice {
+    color: #d32f2f;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.guarantee {
+    color: #388e3c;
+    margin-top: 1rem;
+    font-style: italic;
+}
+
+/* Améliorations responsive */
+@media (max-width: 768px) {
+    .product-detail {
+        grid-template-columns: 1fr;
+    }
+    
+    .form-container {
+        border-radius: 0;
+    }
+}
