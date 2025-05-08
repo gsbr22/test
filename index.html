@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Histoire Personnalisée pour Enfant | NextGen</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/png" href="favicon-32x32.png">
+</head>
+<body>
+    <header>
+        <div class="corner-logo">
+            <img src="nextlogo.png" alt="NextGen Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="index.html#products">Nos Produits</a></li>
+                <li><a href="index.html#about">À Propos</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-actions">
+            <a href="#" id="loginLink" class="login-btn">Connexion</a>
+        </div>
+    </header>
+
+    <main class="product-page">
+        <section class="product-detail">
+            <div class="product-image">
+                <img src="histoires_enfants.png" alt="Histoire Personnalisée pour Enfant">
+            </div>
+            <div class="product-info">
+                <h1>Histoire Personnalisée pour Votre Enfant</h1>
+                <p class="price">14,99€</p>
+                <div class="product-description">
+                    <p>Offrez à votre enfant une aventure unique où il devient le héros de l'histoire ! Chaque livre est créé sur mesure selon vos réponses à notre questionnaire.</p>
+                    
+                    <h3>Ce que vous recevrez :</h3>
+                    <ul>
+                        <li>Une histoire de 20-25 pages adaptée à l'âge de votre enfant</li>
+                        <li>Personnalisation du nom, apparence et traits de caractère</li>
+                        <li>Illustrations colorées</li>
+                        <li>Version PDF téléchargeable (compatible tablette)</li>
+                        <li>Délai de création : 3-5 jours après réception du questionnaire</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="personalization-form">
+            <h2>Personnalisez Votre Histoire</h2>
+            <div class="form-container">
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdXD4T4fTbzdsoRA3s5i3R2PrPih-3NKRz04ui39qyNBTwiTQ/viewform?embedded=true" 
+                        width="100%" 
+                        height="1600" 
+                        frameborder="0" 
+                        marginheight="0" 
+                        marginwidth="0">
+                    Chargement...
+                </iframe>
+            </div>
+            
+            <div class="payment-cta">
+                <p class="notice">⚠️ Veuillez compléter le formulaire avant de procéder au paiement</p>
+<style>.pp-H3Z46QTR4DFJ4{text-align:center;border:none;border-radius:0.25rem;min-width:11.625rem;padding:0 2rem;height:2.625rem;font-weight:bold;background-color:#FFD140;color:#000000;font-family:"Helvetica Neue",Arial,sans-serif;font-size:1rem;line-height:1.25rem;cursor:pointer;}</style>
+<form action="https://www.paypal.com/ncp/payment/H3Z46QTR4DFJ4" method="post" target="_blank" style="display:inline-grid;justify-items:center;align-content:start;gap:0.5rem;">
+  <input class="pp-H3Z46QTR4DFJ4" type="submit" value="Acheter" />
+  <img src=https://www.paypalobjects.com/images/Debit_Credit_APM.svg alt="cards" />
+  <section style="font-size: 0.75rem;"> Optimisé par <img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-wordmark-color.svg" alt="paypal" style="height:0.875rem;vertical-align:middle;"/></section>
+</form>
+            </div>
+        </section>
+
+        <section class="product-features">
+            <h2>Comment ça marche ?</h2>
+            <div class="features-grid">
+                <div class="feature">
+                    <i class="fas fa-edit"></i>
+                    <h3>Étape 1</h3>
+                    <p>Répondez à notre questionnaire de personnalisation</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-book-open"></i>
+                    <h3>Étape 2</h3>
+                    <p>Nous créons votre histoire sur mesure sous 72h</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-file-download"></i>
+                    <h3>Étape 3</h3>
+                    <p>Recevez votre PDF par email et impression optionnelle</p>
+                </div>
+            </div>
+        </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="nextlogo2.png" alt="NextGen Logo">
+            </div>
+            <div class="footer-links">
+                <a href="index.html">Accueil</a>
+                <a href="index.html#products">Produits</a>
+                <a href="index.html#about">À Propos</a>
+                <a href="index.html#contact">Contact</a>
+                <a href="legal.html">Mentions légales</a>
+            </div>
+            <div class="footer-social">
+                <a href="https://www.youtube.com/@Nextgencorp_lgdf"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.tiktok.com/@nextgencorp"><i class="fab fa-tiktok"></i></a>
+                <a href="https://www.instagram.com/le_guide_du_footballeur/"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 NextGen. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Désactive le bouton PayPal tant que le formulaire n'est pas soumis
+        window.addEventListener('message', function(event) {
+            if (event.origin === "https://docs.google.com" && 
+                event.data.includes("form-submit")) {
+                document.getElementById('payButton').disabled = false;
+                document.querySelector('.notice').textContent = "✔️ Formulaire complété - Vous pouvez maintenant procéder au paiement";
+            }
+        });
+    </script>
+</body>
+</html>
